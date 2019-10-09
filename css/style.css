@@ -14,7 +14,7 @@ header
 
 h1
 { 	background-color: ;
-	color: Grey;
+	color: #414042;
 	min-height: 100px;
 	font-size:80px;
 	font-family: 'Comfortaa', cursive;
@@ -36,10 +36,10 @@ nav li
 	margin: 20px;}
 
 .home{color:grey;}
-.about{color:green;}
-.powder{color:orange;}
-.freestyle{color:red;}
-.split{color:blue;}
+.about{color:#006838;}
+.powder{color:#F7941D;}
+.freestyle{color:#EE2A7B;}
+.split{color:#1B75BC;}
 
 
 
