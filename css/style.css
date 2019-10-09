@@ -22,7 +22,9 @@ h1
 	text-transform:uppercase;}
 
 a 
-{	text-decoration: underline 4px grey;}
+{	text-decoration: line;
+	text-decoration-color: grey;
+	text-decoration-style: solid;}
 
 nav ul 
 {
