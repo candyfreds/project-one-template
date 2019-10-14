@@ -12,6 +12,18 @@ header
 	width: 20%;
 	height: 20%;}
 
+body.home{}
+body.about{}
+body.powder{color:orange;
+
+	background-color: red;}
+
+
+
+.circle
+{border-radius: 50%}
+
+
 h1
 { 	background-color: ;
 	color: #414042;
@@ -21,12 +33,27 @@ h1
 	text-align: center;
 	text-transform:uppercase;}
 
-a 
-{	text-decoration: line;
-	text-decoration-color: grey;
-	text-decoration-style: solid;}
+h2
+{	background-color: #006838;
+	color: white;
+	display: block;
+	min-height: 100px;
+	font-size:80px;
+	font-family: 'Comfortaa', cursive;
+	text-align: left;
+	text-transform:lowercase;
+	margin-top: 0px;
+  	margin-bottom: 100px;
+  	margin-right: 80px;
+  	margin-left: 0px;}
 
-nav ul 
+
+
+
+a 
+{	text-decoration: underline 4px grey;}
+
+nav ul
 {
 	list-style-type: none;
 	text-align: center;
@@ -42,6 +69,20 @@ nav li
 .powder{color:#F7941D;}
 .freestyle{color:#EE2A7B;}
 .split{color:#1B75BC;}
+
+p
+	{font-family:'Comfortaa';
+	font-size:15px;
+	text-align:left;
+	margin-left:50px;
+	margin-right:80px;
+	margin-top:60px;
+	line-height: 2em;
+	color: black;}
+
+
+
+
 
 
 
