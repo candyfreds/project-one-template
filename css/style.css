@@ -1,4 +1,4 @@
-BASE
+
 
 header, nav, main, footer 
 {	margin: 0;}
@@ -221,21 +221,8 @@ ul.about-list  li
  {	margin-left:300px;}
 
  .split_circle2
- {height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-color: #7db9e8;
-    margin: 25px 25px 25px 0px;
-    float: left;
-    -webkit-shape-outside: circle();
-    shape-outside: circle();}
-
- .split_circle2
- {	margin-left:300px;}
-
- .split_circle3
- {height: 200px;
-    width: 200px;
+ {height: 250px;
+    width: 250px;
     border-radius: 50%;
     background-color: #7db9e8;
     margin: 25px 25px 25px 0px;
@@ -244,7 +231,14 @@ ul.about-list  li
     shape-outside: circle();}
 
  .split_circle3
- {	margin-left:300px;}
+ {height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #7db9e8;
+    margin: 25px 25px 25px 0px;
+    float: left;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();}
 
  .split_circle4
  {height: 250px;
@@ -256,8 +250,17 @@ ul.about-list  li
     -webkit-shape-outside: circle();
     shape-outside: circle();}
 
-  .split_circle4
- {	margin-left:300px;}
+ .split_circle4
+ 
+ .split_grid
+ {display:grid;
+ 	grid-template-columns: 1fr 1fr;}
+
+
+ .splitparagraph
+ {padding-top:300px;
+ 	margin-left:150px;
+ 	margin-right:150px;}
 
 
 .orange{color:#F7941D;}
