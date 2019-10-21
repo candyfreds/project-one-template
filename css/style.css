@@ -135,14 +135,13 @@ ul.about-list  li
   	margin-bottom:100px;}
 
   .powder_circle2
- {	height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-color: #7db9e8;
-    margin: 25px 25px 25px 0px;
-    float: left;
-    -webkit-shape-outside: circle();
-    shape-outside: circle();}
+ {	width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle()}
 
   .powder_circle2
  {	margin-left:5px;
@@ -166,7 +165,7 @@ ul.about-list  li
 {	margin-left:600px;
 	margin-right:100px;
 	text-align:left;
-	padding-top:150px;}
+	padding-top:200px;}
 
 
 .freestyle_circle1
@@ -208,59 +207,39 @@ ul.about-list  li
  	margin-right:150px;}
 
  .split_circle1
- {height: 250px;
-    width: 250px;
+ {	height: 175px;
+    width: 175px;
     border-radius: 50%;
     background-color: #7db9e8;
-    margin: 25px 25px 25px 0px;
-    float: left;
+    margin: auto;
+    float: right;
     -webkit-shape-outside: circle();
     shape-outside: circle();}
 
  .split_circle1
- {	margin-left:300px;}
+ {	margin-right:400px;
+ 	margin-top:50px;}
 
  .split_circle2
- {height: 250px;
-    width: 250px;
+ {	height: 175px;
+    width: 175px;
     border-radius: 50%;
     background-color: #7db9e8;
-    margin: 25px 25px 25px 0px;
-    float: left;
+    margin: auto;
+    float: right;
     -webkit-shape-outside: circle();
     shape-outside: circle();}
 
- .split_circle3
- {height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background-color: #7db9e8;
-    margin: 25px 25px 25px 0px;
-    float: left;
-    -webkit-shape-outside: circle();
-    shape-outside: circle();}
+ .split_circle2
+ {margin-right:400px;
+ 	margin-top:30px;}
 
- .split_circle4
- {height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background-color: #7db9e8;
-    margin: 25px 25px 25px 0px;
-    float: left;
-    -webkit-shape-outside: circle();
-    shape-outside: circle();}
-
- .split_circle4
- 
- .split_grid
- {display:grid;
- 	grid-template-columns: 1fr 1fr;}
-
-
- .splitparagraph
- {padding-top:300px;
- 	margin-left:150px;
- 	margin-right:150px;}
+.splitparagraph
+ {padding-top:50px;
+ 	margin-left:315px;
+ 	margin-right:600px;
+ 	text-align:right;
+ 	line-height:1.2em;}
 
 
 .orange{color:#F7941D;}
