@@ -19,8 +19,8 @@ h1
 	text-transform:uppercase;}
 
 header
-{background-color: #006838;
-margin:0;;}
+{background-color: white;
+margin:0;}
 
 
 
@@ -35,8 +35,14 @@ h2
 	text-align: left;
 	text-transform:lowercase;
 	margin:0;
-	padding-left:40px;
+	padding-left:170px;
 	padding-top:20px;}
+
+.logo{
+    background-color:none;
+    padding-left:20px;
+    margin-top:-200px;
+    }
 
 
 a 
@@ -45,14 +51,14 @@ a
 nav ul
 {	list-style-type: none;
 	text-align: center;
-	font-family: 'Comfortaa', cursive;}
+	font-family: 'Quicksand', sans-serif;}
 
 nav li 
 {	display: inline-block;
 	margin: 20px;}
 
 section div p
-{	font-family:'Quattrocento', serif;
+{	font-family: 'Quicksand', sans-serif;
 	font-size:15px;
 	text-align:left;
 	margin-left:80px;
@@ -70,7 +76,8 @@ section div p
 	margin-bottom: 200px;}
 
 .about h2
-{	background-color:#006838;}
+{	background-color:#006838;
+    }
 
  .powder h2
 {	background-color:#F7941D;}
@@ -79,7 +86,8 @@ section div p
 {	background-color:#EE2A7B;}
 
 .split h2
-{	background-color:#1B75BC;}
+{	background-color:#1B75BC;
+height:60px;}
  
 
 
@@ -164,7 +172,8 @@ ul.about-list  li
 {	margin-left:710px;
 	margin-right:100px;
 	text-align:left;
-	padding-top:100px;}
+	padding-top:100px;
+    font-family: 'Quicksand', sans-serif;}
 
 
 .freestyle_circle1
@@ -203,7 +212,8 @@ ul.about-list  li
  .freestylepageparagraph
  {	padding-top:300px;
  	margin-left:150px;
- 	margin-right:150px;}
+ 	margin-right:150px;
+    font-family: 'Quicksand', sans-serif;}
 
  .split_circle1
  {	height: 175px;
@@ -230,7 +240,7 @@ ul.about-list  li
     shape-outside: circle();}
 
  .split_circle2
- {margin-right:400px;
+ {  margin-right:400px;
  	margin-top:30px;}
 
 .split_circle3
@@ -244,16 +254,17 @@ ul.about-list  li
     shape-outside: circle();}
 
  .split_circle3
- {margin-right:400px;
+ {  margin-right:400px;
  	margin-top:30px;}
 
 .splitparagraph
- {padding-top:70px;
+ {  padding-top:70px;
  	margin-left:315px;
  	margin-right:600px;
  	text-align:right;
  	line-height:1.5em;
- 	color:black;}
+ 	color:black;
+    font-family:  'Quicksand', sans-serif;}
 
 
 .orange{color:#F7941D;}
