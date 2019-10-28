@@ -62,7 +62,7 @@ section div p
 	font-size:15px;
 	text-align:left;
 	margin-left:80px;
-	margin-right:20px;
+	margin-right:130px;
 	margin-top:40px;
 	line-height: 1.5em;
 	color: black;
@@ -104,7 +104,7 @@ ul.about-list
 ul.about-list  li 
 {	margin-left:250px;
 	margin-top:20px;
-	margin-right:80px;}
+	margin-right:250px;}
 
 .homeimage 
 { 	display: block;
